@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lede2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/vigilia_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterDeviceLoading" />
+        <activity android:name=".ListActivity" />
+        <activity android:name=".ConfigActivity" />
+        <activity android:name=".AllInstallOptions" />
+        <activity android:name=".InstallCommPattern" />
+        <activity android:name=".InstallTwoDevicesAndCommPattern" />
+        <activity android:name=".InstallAddress" />
+        <activity android:name=".InstallZigbeeDeviceAddress" />
+        <activity android:name=".InstallHost" />
+        <activity android:name=".UpdateLocalConfigFiles" />
+        <activity android:name=".RegistrationRouterCheck" />
+        <activity android:name=".ApplicationsList" />
+        <activity android:name=".HomeSecurity" />
+        <activity android:name=".Irrigation" />
+        <activity android:name=".Lifxtest" />
+        <activity android:name=".SmartLights" />
+        <activity android:name=".Speaker" />
+        <activity android:name=".DatabaseActivity" />
+        <activity android:name=".DriversSelectActivity" />
+        <activity android:name=".DriversAddActivity" />
+
+
+
+
+        <activity
+            android:name=".RegisterDeviceAdding"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name=".AddDeviceActivity"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name=".DeleteDeviceActivity"
+            android:label="@string/title_activity_delete_device"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RelationActivity"
+            android:label="@string/title_activity_relation"
+            android:theme="@style/AppTheme.NoActionBar"/>
+    </application>
+
+</manifest>

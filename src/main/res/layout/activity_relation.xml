@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lede2.RelationActivity"
+    android:background="@drawable/blueberry"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="0.55"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.05"
+                android:background="@drawable/orange"
+                android:gravity="center"
+                android:inputType="text"
+                android:text="Please adjust the info below to add a relation"
+                android:textColor="#000000"
+                android:textIsSelectable="true"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <EditText
+
+                android:id="@+id/textInfoComm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/empty"
+                android:gravity="center"
+                android:inputType="text|textMultiLine"
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorLink="@color/blue"
+                android:textIsSelectable="true"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/addButton"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:layout_weight="0.06"
+                android:background="@drawable/pinkback"
+                android:text="add"
+                android:textColor="#FFA7A7"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.05"
+                android:background="@drawable/orange"
+                android:gravity="center"
+                android:inputType="text"
+                android:text="Please provide entry IDs to delete a relation"
+                android:textColor="#000000"
+                android:textIsSelectable="true"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.05"
+                android:background="@drawable/orange"
+                android:gravity="center"
+                android:inputType="text"
+                android:text="ID source"
+                android:textColor="#000000"
+                android:textIsSelectable="true"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <EditText
+
+                android:id="@+id/id_source"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="0.05"
+                android:background="@drawable/empty"
+                android:gravity="center"
+                android:inputType="text"
+                android:textColor="@color/colorPrimaryDark"
+                android:textIsSelectable="true"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.05"
+                android:background="@drawable/orange"
+                android:gravity="center"
+                android:inputType="text"
+                android:text="ID destination"
+                android:textColor="#000000"
+                android:textIsSelectable="true"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <EditText
+
+                android:id="@+id/id_destination"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="0.05"
+                android:background="@drawable/empty"
+                android:gravity="center"
+                android:inputType="text"
+                android:textColor="@color/colorPrimaryDark"
+                android:textIsSelectable="true"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/delButton"
+                android:layout_width="154dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/pinkback"
+                android:text="delete"
+                android:textColor="#FFA7A7"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

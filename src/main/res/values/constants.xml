@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string  name="default_rssid">LEDE2</string>
+    <string  name="default_rpwd">1qaz2wsx3edc</string>
+    <string  name="default_routerip">128.195.177.207</string>
+    <string  name="default_routeruser">root</string>
+    <string  name="mysql_hostuser">iotuser</string>
+    <string  name="mysql_hostip">192.168.1.192</string>
+    <string  name="mysql_hostpassword">1qaz2wsx</string>
+    <string  name="change_default_script">/root/vigilia_setup/register/change_default_pw.sh</string>
+    <string  name="connect_device_script">/root/vigilia_setup/register/connect_device.sh</string>
+    <string  name="register_device_script">/root/vigilia_setup/register/register_device.sh</string>
+    <string  name="install_device_file">1)_install_one_device.config</string>
+    <string  name="install_device_comm_file">2)_install_comm_pattern.config</string>
+    <string  name="install_two_devices_and_comm_file">3)_install_two_devices_and_comm_pattern.config</string>
+    <string  name="install_address_file">4)_install_address.config</string>
+    <string  name="install_device_address_file">5)_install_device_address.config</string>
+    <string  name="install_zigbee_device_address_file">6)_install_zigbee_device_address.config</string>
+    <string  name="install_host_file">7)_install_host.config</string>
+    <string  name="delete_entity_file">8)_delete_entity.config</string>
+    <string  name="delete_comm_pattern_file">9)_delete_comm_pattern.config</string>
+    <string  name="delete_address_file">10)_delete_address.config</string>
+    <string  name="delete_device_address_file">11)_delete_device_address.config</string>
+    <string  name="delete_zigbee_device_address_file">12)_delete_zigbee_device_address.config</string>
+    <string  name="delete_host">13)_delete_host.config</string>
+
+
+    <string  name="add_device_to_mysql">/home/iotuser/iot2/bin/iotinstaller</string>
+    <string  name="mysql_config_file">device.config</string>
+    <string  name="install_cmd">java -cp .:..:/usr/share/java/* iotinstaller.IoTInstaller -install_ent</string>
+    <string  name="delete_cmd">java -cp .:..:/usr/share/java/* iotinstaller.IoTInstaller -delete_ent</string>
+    <string  name="install_address_cmd">java -cp .:..:/usr/share/java/* iotinstaller.IoTInstaller -install_dev_add</string>
+    <string  name="install_zb_address_cmd">java -cp .:..:/usr/share/java/* iotinstaller.IoTInstaller -install_zb_add</string>
+    <string  name="delete_address_cmd">java -cp .:..:/usr/share/java/* iotinstaller.IoTInstaller -delete_dev_add</string>
+    <string  name="delete_zb_cmd">java -cp .:..:/usr/share/java/* iotinstaller.IoTInstaller -delete_zb_add</string>
+    <string  name="add_comm_cmd">java -cp .:..:/usr/share/java/* iotinstaller.IoTInstaller -install_comm</string>
+    <string  name="delete_comm_cmd">java -cp .:..:/usr/share/java/* iotinstaller.IoTInstaller -delete_comm</string>
+    <string name ="database_name">IoTMain</string>
+</resources>

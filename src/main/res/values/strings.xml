@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">LEDE2</string>
+    <string name="complete">Register complete</string>
+    <string name="try_again">Please connect to LEDE</string>
+    <string name="connect">Please connect to WIFI</string>
+    <string name="empty_name">Name is empty, Please enter the device name</string>
+    <string name="blank">Please enter information without blank</string>
+    <string name="title_activity_add_device_info">AddDeviceInfoActivity</string>
+
+    <string name="title_activity_add_device">AddDeviceActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_delete_device">DeleteDeviceActivity</string>
+    <string name="title_activity_add_relation">AddRelationActivity</string>
+    <string name="title_activity_relation">RelationActivity</string>
+    <string name="install_one_device">Install One Device</string>
+    <string name="install_comm_pattern">Install Communication Pattern</string>
+    <string name="install_two_devices_and_comm_pattern">Install Two Devices and Communication Pattern</string>
+    <string name="install_address">Install Address</string>
+    <string name="install_device_address">Install Device Address</string>
+    <string name="install_zigbee_device_address">Install Zigbee Device Address</string>
+    <string name="install_host">Install Host</string>
+    <string name="device_param_config_filename">device_param.config</string>
+    <string name="device_id_config_filename">device_id_config.txt</string>
+    <string name="initial_DHCP">initial_DHCP.txt</string>
+    <string name="temp_DHCP">temp_DHCP.txt</string>
+    <string name="mac_address_filename">mac_address.txt</string>
+    <string name="devices_dat_filename">devices.dat</string>
+    <string name="setsAndRelationsFilename">setsAndRelationsFilename</string>
+    <string name="driversListFilename">driversList</string>
+    <string name="smartLightsControllerConfigFile">smartLightsControllerConfig</string>
+    <string name="speakerControllerConfigFile">speakerControllerConfig</string>
+    <string name="homeSecurityControllerConfigFile">homeSecurityControllerConfig</string>
+    <string name="irrigationControllerConfigFile">irrigationControllerConfig</string>
+    <string name="lifxtestControllerConfigFile">lifxtestControllerConfig</string>
+    <string name="driverConfigFilename">driverConfig</string>
+    <string name="setListFilename">setList</string>
+    <string name="IoTDeviceAddress">IotDeviceAddress</string>
+
+
+
+    <string name="changeToSQLConfigFileLocation"> cd ~/iot2/localconfig/mysql; </string>\
+    <string name="changeToCommConfigFileLocation"> cd ~/iot2/bin/iotinstaller; </string>\
+
+
+
+    <string name="update_DBInformation_File">java -cp .:..:/usr/share/java/* iotinstaller.IoTInstaller -get AllDevices.config</string>
+    <string name="cat_device_types">cat AddressInformation.config</string>
+    <string name="cat_subtypes">cat IDSubtypeInformation.config</string>
+    <string name="getSmartLightsSetsAndRelationsCommand">cat ~/iot2/benchmarks/Java/SmartLightsController/SmartLightsController.config </string>
+    <string name="getSpeakerSetsAndRelationsCommand">cat ~/iot2/benchmarks/Java/SpeakerController/SpeakerController.config </string>
+    <string name="getHomeSecuritySetsAndRelationsCommand">cat ~/iot2/benchmarks/Java/HomeSecurityController/HomeSecurityController.config </string>
+    <string name="getIrrigationSetsAndRelationsCommand">cat ~/iot2/benchmarks/Java/IrrigationController/IrrigationController.config </string>
+    <string name="getlifxtestSetsAndRelationsCommand">cat ~/iot2/benchmarks/Java/Lifxtest/Lifxtest.config </string>
+    <string name="getListOfDriversCommand">cat ~/iot2/bin/iotinstaller/driversList.config </string>
+    <string name="getAmcrestCameraConfig">cat ~/iot2/benchmarks/drivers/Java/AmcrestCamera/AmcrestCamera.config </string>
+    <string name="updateSetList">java -cp .:..:/usr/share/java/* iotinstaller.IoTInstaller -updateSetList AllDevices.config;</string>
+    <string name="updateIoTDeviceAddress">java -cp .:..:/usr/share/java/* iotinstaller.IoTInstaller -updateIoTDeviceAddress AllDevices.config</string>
+
+    <string name="getSetList">cat SetList.config</string>
+    <string name="getIoTDeviceAddress">cat IoTDeviceAddress.config</string>
+
+    <string name="ChooseMac">Choose MAC address of desired device to register</string>
+    <string name="EnterDeviceName">Please enter desired name for the new device</string>
+
+
+</resources>
